@@ -1,0 +1,59 @@
+#Microsoft SQL Server is a database
+  Also a database management system
+  Also a relational database
+  Also an OLTP (Online Transactional Processing) system
+
+# A database can hold data and let you access it.
+    Microsoft SQL version 1.0 (Filipi) 1988 OS Operating System
+    Version 1.1 (Pietro) 1991 OS Operating System
+    Version 4.2 (SQLNT) 1993 NT Operating System
+    Version 6.0 (SQL95) 1995 win95 
+    Version 6.5 (Hydra) 1996
+    Version 7.0 (Sphinx) 1997
+    Version 2000 (Shiloh) 2000 !today's SQL core
+    Version 2005 (Yukon) 2005
+    Version 2008 (Katmai) 2008
+    Version 2008 R2 (Klimanjaro) 2010
+    Version 2012 (Denali) 2012
+    Version 2014 (Hekaton) 2014 !working on memory completely
+    Version 2016 () 2016
+    Version 2017 (Helsinki), 2017 most recent
+    Version 2019 preview.
+    
+# Client Server Architecture
+    Microsoft Access is just a database.
+    You should use your Disk,CPU and Ram on Access
+    SQL is connected to SQL Cloud server.
+    Connecting to SQL server has to be on its own language
+    SQL uses its CPU,Disk and RAM.
+    This is the common thing of database management systems i.e. Oracle
+    SQL is the global language of databases (Like English)
+    SQL server's language is T-SQL
+    Database admin continuously talks to the SQL server.
+    
+# Things that effect SQL Server query time
+    -Disk = storage of data
+    -AVG Disk Que Length = count of tasks waiting on a disk
+        Parameter= AVG DQL must be <5 seconds
+        Key is using faster disks
+    -Registry = data
+        Data Index complexity = Fragmentation
+        Solution = Defragmentation
+    -Ram = Workplace
+        !Ram is not emptied until more space is necessary
+        So parameter here is PLE(Page Life Expectancy
+        PLE must be > Total RAM / 4 * 300 seconds
+    -Ram Bus Speed is the most critical thing
+        When you speed it 2x your task will be completed on almost 1/2 time.
+    -CPU core count
+        SQL server works parallel on Join tasks.
+        More CPU cores, more parallel work and less overall time.
+    -Clock Speed (CPU performance) new generations are better
+    -Index fragmentation
+        More work leads to data fragmentation
+        You should do Index Rebuild work to avoid this
+        Doing Index Rebuild as a routine: Setting a Periodical SystemCare Plan
+    -Ad Hoc Query = tasks of a repeating project
+    -Stored Procedure = storing each task on a function keyword
+    
+# Installing VMWare
